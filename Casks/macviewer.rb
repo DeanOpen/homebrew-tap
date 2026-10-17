@@ -1,6 +1,6 @@
 cask "macviewer" do
-  version "0.3.3"
-  sha256 "2425d0890471d1d8fbd6c5394a0250b321f85c3fe1e150d97f77280202535387"
+  version "0.3.4"
+  sha256 "9e94a4368b6fd7a667f6cb9e1a1fbde801aa1344c62260c6c9d778b222967520"
 
   url "https://github.com/DeanOpen/MacViewer/releases/download/v#{version}/MacViewer-#{version}.dmg"
   name "MacViewer"
