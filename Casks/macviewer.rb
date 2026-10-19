@@ -1,6 +1,6 @@
 cask "macviewer" do
-  version "0.3.12"
-  sha256 "e7e4bc513ff5eacf507a7cb44568ba012095128ec0bb8be537430d4ceaf1b064"
+  version "0.3.13"
+  sha256 "4cb54fb8514782c5c21c833f750ffd113c48a0402371f386e481474a10707f8e"
 
   url "https://github.com/DeanOpen/MacViewer/releases/download/v#{version}/MacViewer-#{version}.dmg"
   name "MacViewer"
@@ -13,7 +13,7 @@ cask "macviewer" do
   end
 
   auto_updates true
-  depends_on macos: :sonoma
+  depends_on macos: :monterey
 
   app "MacViewer.app"
 
